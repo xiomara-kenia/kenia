@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu simple con HTML Y CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+
+        <p>Edad
+            <input type="radio" name="edad" value="menor"> Menor
+            <input type="radio" name="edad" value="adulto" required>
+            Adulto
+        </p>
+        <p>Apellidos:
+            <input type="text" name="apellidos" size="40"
+            placeholder="Esciba sus dos apellidos">
+        </p>
+        <p> Nombre: <input type="text" name="nombre"></p>
+
+        <p>Apellidos <input type="text" name="apellidos" size="40"></p>
+        <p>Nacionalidad: <input type="text" name="nacionalidad" size="20"></p>
+
+        <p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+        <p>Conreaseña: <input type="password" name="password" minlength="6"></p>
+        <input type="submit" value="Enviar">
+
+        <button type="submit">
+            <img src="send.svg" alt="imagen" width="32" height="32" style="vertical-align: middle">
+            Enviar
+        </button>
+        <input type="reset" value="Borrar">
+        <button type="reset">
+            <img src="rest.svg" alt="imagen" width="32" height="32" style="vertical-align: middle">
+            Borrar
+        </button>
+
+        <p>Caja de texto: <input type="text" name="texto" value="Bla bla bla"></p>
+        <p><input type="reset" value="Borrar"></p>
+        <input type="text" name="texto">
+        <input type="text" name="texto" value="Escriba algo">
+        <input type="text" name="texto" placeholder="Escriba algo">
+        <input type="password" name="contraseña">
+        Escriba un numero:
+        <input type="number" name="numero">
+        Escriba un numero cualquiera:
+        <input type="number" name="numero" step="any">
+        Escriba un numero mayor o igual que 20:
+        <input type="number" name="numero" min="20">
+        Escriba un numero menor o igual que 100:
+        <input type="number" name="numero" max="100">
+        escriba un multiplo de 10:
+        <input type="number" name="numero" step="10">
+        Escriba un valor de 0,5 en 0,5:
+        <input type="number" name="numero"  step="0.5">
+        Escriba un numero cualquiera:
+        <input type="number" name="numero" step="any">
+        Fecha: <input type="date" name="fecha">
+        Hora: <input type="time" name="hora">
+
+        <input type="checkbox" name="casilla">Casilla 1
+        <input type="checkbox" name="casilla" checked>Casilla 1
+        <input type="checkbox" name="casilla" value="hola">Casilla 1
+
+        <input type="radio" name="boton1" value="1">Opcion 1<br>
+        <input type="radio" name="boton2" value="2">Opcion 2<br>
+        <input type="radio" name="boton" value="3">Opcion 3
+
+        <input type="radio" name="boton"> Hombre<br>
+        <input type="radio" name="boton"> Hombre
+
+        <input type="radio" name="boton" value="hombre"> Hombre<br>
+        <input type="radio" name="boton" value="Mujer"> Mujer
+    </form>
+</body>
+</html>

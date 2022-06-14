@@ -1,0 +1,49 @@
+h1{
+    font-size: 28;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2{
+    font: bold 14px sans-serif ;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    width: 960;
+    background: powderblue;
+    margin: 15px auto;
+    padding: 58px;
+}
+
+.cabecera{
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu{
+    background: #ccc;
+    padding: 5PX 15px;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 20px;
+}
